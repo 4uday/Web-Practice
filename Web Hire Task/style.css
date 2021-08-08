@@ -1,0 +1,256 @@
+#header-col {
+    color: white;
+}
+
+#header-col #col-1 {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+#header-col #col-1 img {
+    background-color: rgba(22, 22, 22, 0.342);
+    border-radius: 40px;
+    padding: 5px;
+}
+
+#header-btn {
+    margin-top: 3%;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0%;
+}
+
+#header-col #col-2 {
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#header-form {
+    text-align: center;
+}
+
+#header-form ::placeholder {
+    color: white;
+    opacity: 1;
+    /* Firefox */
+}
+
+#header-form input {
+    background-color: transparent;
+    border-radius: 0%;
+    border: 1px solid white;
+}
+
+#header-from input[type-text] {
+    color: white;
+}
+
+#header-submit-btn {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 0%;
+    width: 100%;
+}
+
+#sec-2 {
+    text-align: center;
+}
+
+#number {
+    background-color: red;
+    padding: 2%;
+    border-radius: 62% 69% 8% 86% / 39% 58% 42% 74%;
+}
+
+.col-text {
+    tab-size: 8;
+}
+
+#sec-2 h1 {
+    font-weight: 300;
+    text-align: center;
+    padding-top: 5%;
+}
+
+#sec-3 h1 {
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+#sec-3 {
+    text-align: center;
+    width: 70%;
+}
+
+
+/*our service start*/
+
+.apps-circle {
+    width: 520px;
+    height: 520px;
+    border-radius: 100%;
+    margin: 10px auto;
+    position: relative;
+}
+
+.feature-circle {
+    background: transparent;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.has-center {
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    font-size: 60px;
+    height: 120px;
+    width: 120px;
+    transform: translateZ(0) translateY(-50%) translateX(-50%);
+}
+
+.circle-container {
+    position: relative;
+    width: 520px;
+    height: 520px;
+    border-radius: 50%;
+    list-style: none;
+    margin: 5em auto 0;
+}
+
+.circle-container .feature-circle {
+    margin: -40px;
+}
+
+.circle-container {
+    position: relative;
+    width: 520px;
+    height: 520px;
+    border-radius: 50%;
+    list-style: none
+}
+
+.circle-container .feature-circle {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    margin: -40px
+}
+
+.circle-container .feature-circle:nth-of-type(2) {
+    opacity: 1;
+    transform: translateZ(0) rotate(-90deg) translate(260px) rotate(90deg)
+}
+
+.circle-container .feature-circle:nth-of-type(3) {
+    opacity: 1;
+    transform: translateZ(0) rotate(-180deg) translate(260px) rotate(180deg)
+}
+
+.circle-container .feature-circle:nth-of-type(4) {
+    opacity: 1;
+    transform: translateZ(0) rotate(-360deg) translate(260px) rotate(3600deg)
+}
+
+.circle-container .feature-circle:nth-of-type(5) {
+    opacity: 1;
+    transform: translateZ(0) rotate(-225deg) translate(260px) rotate(225deg)
+}
+
+.circle-container .feature-circle:nth-of-type(6) {
+    opacity: 1;
+    transform: translateZ(0) rotate(90deg) translate(260px) rotate(-90deg)
+}
+
+.circle-container .feature-circle:nth-of-type(7) {
+    opacity: 1;
+    transform: translateZ(0) rotate(-45deg) translate(260px) rotate(45deg)
+}
+
+.circle-container .feature-circle:nth-of-type(8) {
+    opacity: 1;
+    transform: translateZ(0) rotate(45deg) translate(260px) rotate(-45deg)
+}
+
+.circle-container .feature-circle:nth-of-type(9) {
+    opacity: 1;
+    transform: translateZ(0) rotate(-135deg) translate(260px) rotate(135deg)
+}
+
+
+/*our service end*/
+
+#footer-style {
+    background-color: purple;
+}
+
+.foot {
+    padding: 2% 0% 3% 10%;
+    background-color: rgb(56, 38, 107);
+    ;
+}
+
+#weather {
+    padding: 1%;
+}
+
+.days li {
+    padding: 3%;
+}
+
+#foot-icon {
+    padding: 5px 8px;
+}
+
+#foot-two a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px;
+}
+
+#foot-three a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0% 3%;
+}
+
+#foot-four a {
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    padding: 2.3% 5%;
+}
+
+.foot-field-two {
+    text-align: right;
+    padding: 3%;
+}
+
+.foot-field-two input {
+    padding: 5%;
+    margin: 5% 0% 5% 0%;
+    width: 100%;
+    align-items: end;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 0%;
+}
+
+.foot-form {
+    padding: 7.6% 0% 7.6% 5%;
+}
